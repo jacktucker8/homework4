@@ -97,8 +97,9 @@ header{
   height: 400px;                /* Parallax effect */
 
   /*Your Code Here*/
+  background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
   /*Set background-image to header.jpg */
- 
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: 1 / auto;   /*Can you rewrite it?*/
@@ -156,6 +157,8 @@ header p{
 background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
+  margin: auto;
+  vertical-align: middle;
   /*Your code here:*/
 
 }
